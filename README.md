@@ -38,6 +38,7 @@ The implementation went through several iterations to handle C3's specific requi
 ## Project Structure
 
 - `tim_sort.c3` - The implementation of the TimSort algorithm in C3
+- `fizzbuzz.c3` - The implementation of the FizzBuzz program in C3
 - `c3_docs.md` - Extracted C3 documentation used as reference
 - `tim_sort` - The compiled executable
 
@@ -49,8 +50,11 @@ If you have the C3 compiler installed:
 # Compile the TimSort implementation
 c3c compile tim_sort.c3
 
-# Run the compiled binary
-./tim_sort
+# Compile the FizzBuzz program
+c3c compile fizzbuzz.c3
+
+# Run the compiled FizzBuzz binary
+./fizzbuzz
 ```
 
 ## Conclusion
